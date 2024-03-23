@@ -9,3 +9,4 @@ alias update="sudo bash -c 'apt update && apt upgrade'"
 then ```source ~/.zshrc```
 
 Details: https://www.baeldung.com/linux/bash-alias-with-parameters
+https://linuxhandbook.com/zsh-aliases/
