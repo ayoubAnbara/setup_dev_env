@@ -10,3 +10,6 @@ then ```source ~/.zshrc```
 
 Details: https://www.baeldung.com/linux/bash-alias-with-parameters
 https://linuxhandbook.com/zsh-aliases/
+
+# Upgrade Windows apps
+PowerShell> winget upgrade --all
