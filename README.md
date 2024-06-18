@@ -32,3 +32,19 @@ add these lines in ~/.profile file:
 alias j17='export JAVA_HOME=C:\\dev_tools\\jdk\\eclipse_temurin\\jdk-17.0.11+9;export PATH=$JAVA_HOME/bin:$PATH'
 alias j8='export JAVA_HOME=C:\\dev_tools\\jdk\\eclipse_temurin\\jdk8u412-b08;export PATH=$JAVA_HOME/bin:$PATH'
 ```
+## Using multiple SSH private keys on one client
+```
+nano ~/.ssh/config
+```
+add this config:
+```
+Host github.com
+  HostName github.com
+  IdentityFile ~/.ssh/github
+
+Host gitlab
+  HostName gitlab.com
+  IdentityFile ~/.ssh/id_rsa
+
+```
+
