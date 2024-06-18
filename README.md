@@ -4,7 +4,14 @@ ssh-keygen -t ed25519 -f ~/.ssh/your-key-filename -C "your-key-comment"
 
 ## Create Bash Alias in ~/.bashrc or ~/.zshrc
 ```
-alias update="sudo bash -c 'apt update && apt upgrade'"
+## my aliases
+alias uc="sudo bash -c 'apt update && apt upgrade && apt autoremove'"
+gitc(){
+ git clone --depth 1 $1
+}
+gc(){
+git clone $1
+}
 ```
 then ```source ~/.zshrc```
 
