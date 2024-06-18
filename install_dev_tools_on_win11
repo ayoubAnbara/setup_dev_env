@@ -1,0 +1,8 @@
+```
+winget install -e --id Notepad++.Notepad++
+winget install --id Git.Git -e --source winget
+winget install Bruno.Bruno
+winget install --id Microsoft.VisualStudioCode
+winget install --id DominikReichl.KeePass
+
+```
