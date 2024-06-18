@@ -12,6 +12,8 @@ gitc(){
 gc(){
 git clone $1
 }
+# open intellij from terminal
+export ij="$HOME/.local/share/JetBrains/Toolbox/apps/intellij-idea-ultimate/bin"
 ```
 then ```source ~/.zshrc```
 
