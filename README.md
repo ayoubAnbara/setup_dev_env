@@ -27,6 +27,15 @@ export ij="$HOME/.local/share/JetBrains/Toolbox/apps/intellij-idea-ultimate/bin"
 alias j17='export JAVA_HOME=C:\\dev_tools\\jdk\\eclipse_temurin\\jdk-17.0.11+9;export PATH=$JAVA_HOME/bin:$PATH'
 alias j8='export JAVA_HOME=C:\\dev_tools\\jdk\\eclipse_temurin\\jdk8u412-b08;export PATH=$JAVA_HOME/bin:$PATH'
 
+# Terraform aliases
+# adding time to the commands because I'm very interested
+# in how long these activities take with more complex builds
+# across disparate platforms
+alias ta="bash -c 'terraform init'"
+alias tp="bash -c 'terraform plan'"
+alias ti="bash -c 'terraform init'"
+alias td="bash -c 'terraform destroy'"
+alias tv="bash -c 'terraform validate'"
 ```
 then ```source ~/.bashrc , ~/.zshrc or ~/.profile```
 
