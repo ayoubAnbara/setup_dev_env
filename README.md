@@ -2,7 +2,7 @@
 ## ssh
 ssh-keygen -t ed25519 -f ~/.ssh/your-key-filename -C "your-key-comment"
 
-## Create Bash Alias in ~/.bashrc or ~/.zshrc
+## Create Bash Alias in ~/.bashrc , ~/.zshrc or ~/.profile (if you are on windows)
 ```
 ## my aliases
 alias uc="sudo bash -c 'apt update && apt upgrade && apt autoremove'"
@@ -20,8 +20,15 @@ git pull
 }
 # open intellij from terminal
 export ij="$HOME/.local/share/JetBrains/Toolbox/apps/intellij-idea-ultimate/bin"
+
+# manage java versions
+# on Unix system , use sdkman
+# on Windows
+alias j17='export JAVA_HOME=C:\\dev_tools\\jdk\\eclipse_temurin\\jdk-17.0.11+9;export PATH=$JAVA_HOME/bin:$PATH'
+alias j8='export JAVA_HOME=C:\\dev_tools\\jdk\\eclipse_temurin\\jdk8u412-b08;export PATH=$JAVA_HOME/bin:$PATH'
+
 ```
-then ```source ~/.zshrc```
+then ```source ~/.bashrc , ~/.zshrc or ~/.profile```
 
 Details: https://www.baeldung.com/linux/bash-alias-with-parameters
 https://linuxhandbook.com/zsh-aliases/
@@ -29,15 +36,7 @@ https://linuxhandbook.com/zsh-aliases/
 # Upgrade Windows apps
 PowerShell> winget upgrade --all
 
-## manage java versions
-```
-nano ~/.profile
-```
-add these lines in ~/.profile file:
-```
-alias j17='export JAVA_HOME=C:\\dev_tools\\jdk\\eclipse_temurin\\jdk-17.0.11+9;export PATH=$JAVA_HOME/bin:$PATH'
-alias j8='export JAVA_HOME=C:\\dev_tools\\jdk\\eclipse_temurin\\jdk8u412-b08;export PATH=$JAVA_HOME/bin:$PATH'
-```
+
 ## How to Setup Multiple Ssh Keys for Multiple Github/Gitlab accounts
 ```
 nano ~/.ssh/config
