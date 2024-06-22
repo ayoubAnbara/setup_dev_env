@@ -54,3 +54,6 @@ Host gitlab
 ```
 [Ref](https://gist.github.com/mjrulesamrat/d054630303563a3a286c3f996b9f132f)
 
+# intellij
+## adding @author comment to every class created:
+File --> New --> Edit file templates --> Class --> /* ${USER} created on ${DATE} inside the package - ${PACKAGE_NAME} */
