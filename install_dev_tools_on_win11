@@ -2,7 +2,9 @@
 winget install -e --id Notepad++.Notepad++
 winget install --id Git.Git -e --source winget
 winget install Bruno.Bruno
+winget install -e --id Postman.Postman
 winget install --id Microsoft.VisualStudioCode
 winget install --id DominikReichl.KeePass
 winget install -e --id PostgreSQL.pgAdmin
+winget install -e --id JetBrains.Toolbox
 ```
