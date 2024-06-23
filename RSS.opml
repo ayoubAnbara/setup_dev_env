@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>Feeder - RSS Feed Reader</title>
+    <dateCreated>2024-06-23T17:38:35Z</dateCreated>
+  </head>
+  <body>
+    <outline text="Java8" title="Java8" type="rss" xmlUrl="" htmlUrl="" rssfr-numPosts="0" rssfr-favicon="https://static.feedercdn.com/collection-icons/circlestar-grey.png" rssfr-useNotifications="0" rssfr-updateInterval="7200000"/>
+    <outline title="Java" text="Java">
+      <outline text="Baeldung" title="Baeldung" type="rss" xmlUrl="https://feeds.feedblitz.com/baeldung" htmlUrl="https://www.baeldung.com" rssfr-numPosts="0" rssfr-favicon="https://icons.feedercdn.com/www.baeldung.com" rssfr-useNotifications="0" rssfr-updateInterval=""/>
+      <outline text="Learn to Code with Simon Martinelli" title="Learn to Code with Simon Martinelli" type="rss" xmlUrl="https://martinelli.ch/feed/" htmlUrl="https://martinelli.ch" rssfr-numPosts="0" rssfr-favicon="https://icons.feedercdn.com/martinelli.ch" rssfr-useNotifications="0" rssfr-updateInterval=""/>
+      <outline text="Maciej Walkowiak - Java &amp; Spring" title="Maciej Walkowiak - Java &amp; Spring" type="rss" xmlUrl="https://maciejwalkowiak.com/rss.xml" htmlUrl="https://maciejwalkowiak.com/" rssfr-numPosts="0" rssfr-favicon="https://icons.feedercdn.com/maciejwalkowiak.com" rssfr-useNotifications="0" rssfr-updateInterval=""/>
+      <outline text="SivaLabs" title="SivaLabs" type="rss" xmlUrl="https://www.sivalabs.in/index.xml" htmlUrl="https://www.sivalabs.in/" rssfr-numPosts="0" rssfr-favicon="https://icons.feedercdn.com/www.sivalabs.in" rssfr-useNotifications="0" rssfr-updateInterval=""/>
+      <outline text="Wim Deblauwe - Blog" title="Wim Deblauwe - Blog" type="rss" xmlUrl="https://www.wimdeblauwe.com/blog/index.xml" htmlUrl="https://www.wimdeblauwe.com/blog/" rssfr-numPosts="0" rssfr-favicon="https://icons.feedercdn.com/www.wimdeblauwe.com" rssfr-useNotifications="0" rssfr-updateInterval=""/>
+      <outline text="Posts on Maarten on IT" title="Posts on Maarten on IT" type="rss" xmlUrl="https://maarten.mulders.it/post/index.xml" htmlUrl="https://maarten.mulders.it/post/" rssfr-numPosts="0" rssfr-favicon="https://icons.feedercdn.com/maarten.mulders.it" rssfr-useNotifications="0" rssfr-updateInterval=""/>
+      <outline text="Spring" title="Spring" type="rss" xmlUrl="https://spring.io/blog.atom" htmlUrl="https://spring.io/blog" rssfr-numPosts="0" rssfr-favicon="https://icons.feedercdn.com/spring.io" rssfr-useNotifications="0" rssfr-updateInterval=""/>
+      <outline text="rieckpil" title="rieckpil" type="rss" xmlUrl="https://rieckpil.de/feed/" htmlUrl="https://rieckpil.de" rssfr-numPosts="0" rssfr-favicon="https://icons.feedercdn.com/rieckpil.de" rssfr-useNotifications="0" rssfr-updateInterval=""/>
+    </outline>
+    <outline title="Front-end" text="Front-end">
+      <outline text="Ahmad Alfy" title="Ahmad Alfy" type="rss" xmlUrl="https://alfy.blog/feed.xml" htmlUrl="https://alfy.blog/" rssfr-numPosts="0" rssfr-favicon="https://icons.feedercdn.com/alfy.blog" rssfr-useNotifications="0" rssfr-updateInterval=""/>
+    </outline>
+  </body>
+</opml>
