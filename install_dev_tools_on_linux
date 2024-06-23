@@ -1,3 +1,18 @@
 ```
+## https://ohmyz.sh
+sudo apt install zsh -y
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+## https://sdkman.io/
+sudo apt install unzip -y
+curl -s "https://get.sdkman.io" | bash
+
+
+```
+```
+nano ~/.zshrc
+```
+Append these lines:
+```
 
 ```
