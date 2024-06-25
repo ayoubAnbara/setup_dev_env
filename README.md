@@ -20,6 +20,16 @@ git pull
 }
 # open intellij from terminal
 export ij="$HOME/.local/share/JetBrains/Toolbox/apps/intellij-idea-ultimate/bin"
+<<<<<<< HEAD
+
+##git alias
+# remove last commit
+grl(){
+
+}
+## git pull ignore local changes
+ 
+=======
 
 # manage java versions
 # on Unix system , use sdkman
@@ -36,6 +46,7 @@ alias tp="bash -c 'terraform plan'"
 alias ti="bash -c 'terraform init'"
 alias td="bash -c 'terraform destroy'"
 alias tv="bash -c 'terraform validate'"
+>>>>>>> 654796d71580c50896af597ad77b5d40abafdaac
 ```
 then ```source ~/.bashrc , ~/.zshrc or ~/.profile```
 
