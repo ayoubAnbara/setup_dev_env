@@ -66,3 +66,11 @@ Host gitlab
 # intellij
 ## adding @author comment to every class created:
 File --> New --> Edit file templates --> Class --> /* ${USER} created on ${DATE} inside the package - ${PACKAGE_NAME} */
+
+# Email Signature
+```
+Best regards / Cordialement / Met vriendelijke groet,
+--
+Ayoub ANBARA
+Ingénieur(e) en Technologie de l'Information / Software Engineer
+```
