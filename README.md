@@ -1,4 +1,4 @@
-# setup_dev_env
+# Development Workstation setup and guidelines
 ## ssh
 ```ssh-keygen -t ed25519 -f ~/.ssh/your-key-filename -C "your-key-comment"```
 
