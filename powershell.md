@@ -6,3 +6,8 @@
 function find_process_by_port([int]$port){ netstat -ano | findStr "$port"}
 Set-Alias -Name get_process_by_port -Value find_process_by_port
 ```
+
+Kill process:
+```
+taskkill /f /pid put_the_pid
+```
