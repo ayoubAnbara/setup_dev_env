@@ -24,3 +24,6 @@ Append these lines:
 ```
 
 ```
+```
+sudo apt install tmux
+```
