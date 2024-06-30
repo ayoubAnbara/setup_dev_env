@@ -78,6 +78,9 @@ Host gitlab
 ## adding @author comment to every class created:
 File --> New --> Edit file templates --> Class --> /* ${USER} created on ${DATE} inside the package - ${PACKAGE_NAME} */
 
+## Launch Jetbrains tools from terminal
+https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html#toolbox
+
 # Email Signature
 ```
 Best regards / Cordialement / Met vriendelijke groet,
