@@ -14,3 +14,10 @@ winget install -e --id Notion.Notion
 winget install -e --id VideoLAN.VLC
 winget install --id Microsoft.Powershell --source winget
 ```
+# Install JAVA
+Execute these command as admistrator:
+```
+setx /M JAVA_HOME=D:\jdk\jdk-22
+echo %JAVA_HOME%
+setx /M PATH=%JAVA_HOME%\bin;%PATH%
+```
