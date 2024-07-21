@@ -2,7 +2,7 @@
 ## ssh
 ```ssh-keygen -t ed25519 -f ~/.ssh/your-key-filename -C "your-key-comment"```
 
-## Create Bash Alias in ~/.bashrc , ~/.zshrc or ~/.profile (if you are on windows)
+## Create Bash Alias in ~/.bashrc , ~/.zshrc or C:\Users\USERNAME\.bashrc (if you are on windows)
 ```
 ## my aliases
 alias uc="sudo bash -c 'apt update && apt upgrade && apt autoremove'"
