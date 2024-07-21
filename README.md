@@ -2,7 +2,7 @@
 ## ssh
 ```ssh-keygen -t ed25519 -f ~/.ssh/your-key-filename -C "your-key-comment"```
 
-## Create Bash Alias in ~/.bashrc , ~/.zshrc or C:\Users\USERNAME\.bashrc (if you are on windows)
+## Create Bash Alias in ~/.bashrc , ~/.zshrc or C:\Users\USERNAME\ .bashrc (if you are on windows)
 ```
 ## my aliases
 alias uc="sudo bash -c 'apt update && apt upgrade && apt autoremove'"
@@ -48,7 +48,7 @@ alias td="bash -c 'terraform destroy'"
 alias tv="bash -c 'terraform validate'"
 >>>>>>> 654796d71580c50896af597ad77b5d40abafdaac
 ```
-then ```source ~/.bashrc , ~/.zshrc or ~/.profile```
+then ```source ~/.bashrc , ~/.zshrc```
 
 Details: https://www.baeldung.com/linux/bash-alias-with-parameters
 https://linuxhandbook.com/zsh-aliases/
