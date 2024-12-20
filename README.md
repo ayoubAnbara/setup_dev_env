@@ -86,6 +86,6 @@ https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-l
 Best regards / Cordialement / Met vriendelijke groet,
 --
 Ayoub ANBARA
-Ingénieur(e) en Technologie de l'Information / Software Engineer
+Ingénieur en Technologie de l'Information / Software Engineer
 ```
 ![bd63be9d-8457-4e1c-9aca-d185dba88732_1280x1664](https://github.com/user-attachments/assets/5b575749-1d5d-4f0a-a98b-507eecac5426)
