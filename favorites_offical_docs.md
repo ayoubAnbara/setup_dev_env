@@ -16,6 +16,7 @@
 ## front
 - https://developer.mozilla.org/en-US/
 - https://angular.dev/
+- https://angular.dev/style-guide
 
 ## Message brokers</H3>
 - https://activemq.apache.org/components/classic/documentation/
