@@ -11,6 +11,7 @@
 - https://logback.qos.ch/documentation.html
 - https://www.postgresql.org/docs/
 - [Internal API Design Guidelines shared by known companies](https://apistylebook.com/design/guidelines/)
+- https://developers.google.com/style/code-samples#code-style-guides
 
 ## front
 - https://developer.mozilla.org/en-US/
